@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default', ['title' => 'About'])
 
 
 @section('content')
@@ -9,13 +9,13 @@
         <div class="row">
             <div class="col-md-6">
                 <p class="alert alert-warning">
-                    <strong><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> This app has built by <a
+                    <strong><i class="fa fa-exclamation-triangle" aria-hidden="true"> </i> This app has built by <a
                             href="#">@SergePYD</a> for learning purposes.</strong>
                 </p>
             </div>
         </div>
 
-        <p>Feel free to help to improve the <a href="#">source code</a> </p>
+        <p>Feel free to help to improve the <a href="https://github.com/sergepyd/Laracarte-tdn.git">source code</a> </p>
         <hr>
 
         <h2>What is Laramap?</h2>
