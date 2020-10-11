@@ -19,11 +19,11 @@
         <hr>
 
         <h2>What is Laramap?</h2>
-        Laramap is the website by which Laracarte :)
+        Laramap is the website by which {{ config('app.name') }} :)
         More info <a href="#">here.</a>
         <hr>
 
-        <h2>Which tools and services are used in Laracarte ?</h2>
+        <h2>Which tools and services are used in {{ config('app.name') }} ?</h2>
         <p>Basilcally it's built on Laravel & Bootstrao, But there's a bunch of services used for email and other sections.</p>
         <ul>
             <li>Laravel</li>
@@ -36,8 +36,6 @@
             <li>Michel Fortin's Markdown Parser Package</li>
             <li>Heroku</li>
         </ul>
-
-
     </div>
 
 
